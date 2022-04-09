@@ -1,0 +1,58 @@
+* {
+  border-radius: 30px;
+  padding: 8px;
+  text-align: center;
+}
+body {
+  min-height: 100px;
+  transition: 0.5s;
+}
+img {
+  margin: 0 auto;
+  height: 200px;
+  visibility: hidden;
+  transition: 1s;
+}
+.show {
+  visibility: visible;
+}
+.mouseEvent {
+  border: 6px solid salmon;
+  color: rgb(255, 0, 0);
+  width: 320px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  padding: 60px;
+}
+.themeContainer {
+  position: fixed;
+  top: 0;
+}
+.theme {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+#dark {
+  background: #363636;
+}
+#bright {
+  background: white;
+}
+.darkTheme {
+  background: #363636;
+  color: white;
+}
+.brightTheme {
+  background: #ffffff;
+  color: white;
+}
+h1 {
+  color: red;
+  text-decoration: underline;
+  margin-top: 350px;
+}
+main {
+  background-color: black;
+}
